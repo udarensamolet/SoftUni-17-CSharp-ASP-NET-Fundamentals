@@ -8,3 +8,4 @@ May the Force be with you!
 
 ## 4 ASP.NET Core MVC Introduction
 4.01. MVC Intro Demo<br>
+4.02. Simple Chat App<br>
