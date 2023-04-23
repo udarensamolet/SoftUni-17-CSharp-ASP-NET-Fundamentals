@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MVC_Intro_Demo.Models;
+using MVCIntroDemo.Models;
 using System.Diagnostics;
 
-namespace MVC_Intro_Demo.Controllers
+namespace MVCIntroDemo.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,15 +13,26 @@ namespace MVC_Intro_Demo.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             ViewBag.Message = "Hello World!";
             return View();
         }
 
-        public async Task<IActionResult> About()
+        public IActionResult About()
         {
             ViewBag.Message = "This is an ASP.NET Core MVC app.";
+            return View();
+        }
+
+        public IActionResult Numbers()
+        {
+            return View();
+        }
+
+        public IActionResult NumbersToN(int count = 3)
+        {
+            ViewBag.Count = count;
             return View();
         }
 

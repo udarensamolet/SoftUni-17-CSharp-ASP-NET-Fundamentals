@@ -1,4 +1,4 @@
-namespace MVC_Intro_Demo
+namespace MVCIntroDemo
 {
     public class Program
     {
