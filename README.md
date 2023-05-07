@@ -6,6 +6,12 @@ Any feedback would be appreciated and feel free to borrow some code if you can't
 
 May the Force be with you!
 
+## 3 State Management and Asynchrounous Processing
+3.01. Even Numbers Thread<br>
+3.02. Sum Evens in Ranges<br>
+3.03. Sum Evens in Background<br>
+3.04. Chronometer
+
 ## 5 ASP.NET Core MVC Introduction - Exercises
 5.01. MVC Intro Demo<br>
 5.02. Simple Chat App<br>
@@ -14,5 +20,8 @@ May the Force be with you!
 ## 6 ASP.NET and Databases
 6.01. Shopping List App
 
-## 7 Workshop
+## 7 ASP.NET and Databases - Workshop
 7.01. Forum App
+
+## 9 ASP.NET Identity - Workshop
+9.01. TaskBoard App
